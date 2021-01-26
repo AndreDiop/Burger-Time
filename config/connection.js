@@ -12,6 +12,7 @@ connection.connect(function (err) {
   if (err) {
     console.log("error connecting to you cause of" + err);
   }
-  console.log("Get your motor running on " + connection.threadId);
+  console.log("Mysql is hitting like a mack truck " + connection.threadId);
 });
 
+module.exports = connection;
