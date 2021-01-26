@@ -1,0 +1,30 @@
+{
+  "name": "Burger-Time",
+  "version": "1.0.0",
+  "description": "An app to keep track of all the burgers you have ever eaten!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreDiop/Burger-Time.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreDiop/Burger-Time/issues"
+  },
+  "homepage": "https://github.com/AndreDiop/Burger-Time#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
