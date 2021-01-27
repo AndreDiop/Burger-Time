@@ -6,9 +6,10 @@ $(function () {
     console.log(newDevour);
     console.log(id);
 
+
     
     var newDevourState = {
-      devoured: true,
+      devoured: false,
     };
     
     // Send the PUT request.

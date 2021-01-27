@@ -1,6 +1,6 @@
-<h1>Burgers!</h1>
+<h1>Burgers Bucket List</h1>
 
-<h2>Burgers I plan to Devour</h2>
+<h2>Burgers I have Devoured</h2>
 
 <ul>
   {{#each burgers}}
@@ -10,7 +10,7 @@
   {{/each}}
 </ul>
 
-<h2>Burgers I have Devoured</h2>
+<h2>Burgers I plan to Devour</h2>
 
 <ul>
   {{#each burgers}}
@@ -30,8 +30,8 @@
 
   <div class="form-group">
     <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> I've already Devoured it!<br>
-    <input type="radio" name="devoured" value="0"> Not yet Devoured...
+    <input type="radio" name="devoured" value="1" checked> I've yet to try it!<br>
+    <input type="radio" name="devoured" value="0"> I have had it before
   </div>
 
   <button type="submit">Add Burger</button>
