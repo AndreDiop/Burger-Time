@@ -17,3 +17,22 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+.header {
+text-align: center;
+background-color: #185494;
+}
+
+body {
+  background-image: url('https://image.freepik.com/free-vector/burger-seamless-pattern-background-vector-design_22159-34.jpg');
+}
+
+.had{
+  background-color:#FAAF18;
+}
+.try{
+  background-color:#FAAF18;
+}
+.add{
+  background-color:#FAAF18;
+  align-content: center;
+}
